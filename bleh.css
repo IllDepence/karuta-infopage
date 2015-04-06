@@ -60,11 +60,16 @@ width: 98.5%;
 .txtimg {
 display: inline-block;
 float: right;
+clear: right;
 border: solid 1px #999;
 padding: 5px 5px 0 5px;
 }
 
-.txtimg p {
+.txtimg + .txtimg {
+margin-top: 20px;
+}
+
+.txtimg * + p {
 border-top: solid 1px #999;
 }
 
