@@ -1,11 +1,11 @@
 @font-face {
 font-family: "_ipaexm";
-src: url('_ipaexm.ttf');
+src: url('font/_ipaexm.ttf');
 }
 
 @font-face {
 font-family: "_ipaexg";
-src: url('_ipaexg.ttf');
+src: url('font/_ipaexg.ttf');
 }
 
 #content {
@@ -34,6 +34,15 @@ font-weight: normal;
 
 .txt i {
 color: rgba(0, 0, 0, 0.9);
+}
+
+a, a:link, a:visited, a:active, .txt a i {
+text-decoration: none;
+color: #0645AD;
+}
+
+a:hover {
+color: #0B0080;
 }
 
 b {
